@@ -1,8 +1,8 @@
 {
-  "homepage": "https://MY_APP_HOMEPAGE",
-  "name": "react-boilerplate",
+  "homepage": "https://misacorp.github.io/misacorp.io",
+  "name": "misacorp.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -29,6 +29,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "gh-pages": "^2.1.1",
     "husky": "^3.0.0",
     "lint-staged": "^9.1.0",
     "prettier": "^1.18.2"
@@ -41,7 +42,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx --fix",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
