@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/misacorp.io/static/js/main.1cacc612.chunk.js",
+    "main.js.map": "/misacorp.io/static/js/main.1cacc612.chunk.js.map",
+    "runtime~main.js": "/misacorp.io/static/js/runtime~main.e346ff78.js",
+    "runtime~main.js.map": "/misacorp.io/static/js/runtime~main.e346ff78.js.map",
+    "static/js/2.ca71ead0.chunk.js": "/misacorp.io/static/js/2.ca71ead0.chunk.js",
+    "static/js/2.ca71ead0.chunk.js.map": "/misacorp.io/static/js/2.ca71ead0.chunk.js.map",
+    "index.html": "/misacorp.io/index.html",
+    "precache-manifest.ec697be4cc21ba2230203859a7a7862b.js": "/misacorp.io/precache-manifest.ec697be4cc21ba2230203859a7a7862b.js",
+    "service-worker.js": "/misacorp.io/service-worker.js"
+  }
+}
